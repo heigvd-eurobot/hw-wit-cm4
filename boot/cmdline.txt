@@ -1,0 +1,1 @@
+console=serial0,921600 console=tty1 root=PARTUUID=e974d811-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait logo.nologo fastboot
