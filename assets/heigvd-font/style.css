@@ -1,0 +1,578 @@
+@font-face {
+  font-family: 'HEIG-VD';
+  src:  url('fonts/HEIG-VD.eot?d47o52');
+  src:  url('fonts/HEIG-VD.eot?d47o52#iefix') format('embedded-opentype'),
+    url('fonts/HEIG-VD.ttf?d47o52') format('truetype'),
+    url('fonts/HEIG-VD.woff?d47o52') format('woff'),
+    url('fonts/HEIG-VD.svg?d47o52#HEIG-VD') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="heig-vd-"], [class*=" heig-vd-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'HEIG-VD' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.heig-vd-Asset-210 .path1:before {
+  content: "\34";
+  color: rgb(238, 52, 37);
+}
+.heig-vd-Asset-210 .path2:before {
+  content: "\35";
+  margin-left: -0.4794921875em;
+  color: rgb(255, 255, 255);
+}
+.heig-vd-Asset-210 .path3:before {
+  content: "\a9";
+  margin-left: -0.4794921875em;
+  color: rgb(255, 255, 255);
+}
+.heig-vd-Asset-210 .path4:before {
+  content: "\aa";
+  margin-left: -0.4794921875em;
+  color: rgb(255, 255, 255);
+}
+.heig-vd-Asset-210 .path5:before {
+  content: "\ab";
+  margin-left: -0.4794921875em;
+  color: rgb(255, 255, 255);
+}
+.heig-vd-Asset-210 .path6:before {
+  content: "\ac";
+  margin-left: -0.4794921875em;
+  color: rgb(255, 255, 255);
+}
+.heig-vd-Asset-210 .path7:before {
+  content: "\ad";
+  margin-left: -0.4794921875em;
+  color: rgb(255, 255, 255);
+}
+.heig-vd-Asset-210 .path8:before {
+  content: "\ae";
+  margin-left: -0.4794921875em;
+  color: rgb(255, 255, 255);
+}
+.heig-vd-Asset-210 .path9:before {
+  content: "\af";
+  margin-left: -0.4794921875em;
+  color: rgb(255, 255, 255);
+}
+.heig-vd-Asset-11:before {
+  content: "\67";
+}
+.heig-vd-Asset-2:before {
+  content: "\6f";
+}
+.heig-vd-Asset-3:before {
+  content: "\66";
+}
+.heig-vd-Asset-4:before {
+  content: "\74";
+}
+.heig-vd-Asset-5:before {
+  content: "\6d";
+}
+.heig-vd-Asset-6:before {
+  content: "\65";
+}
+.heig-vd-Asset-7:before {
+  content: "\70";
+}
+.heig-vd-Asset-8:before {
+  content: "\6c";
+}
+.heig-vd-Asset-9:before {
+  content: "\73";
+}
+.heig-vd-Asset-10:before {
+  content: "\a7";
+}
+.heig-vd-Asset-111:before {
+  content: "\61";
+}
+.heig-vd-Asset-12:before {
+  content: "\79";
+}
+.heig-vd-Asset-13:before {
+  content: "\59";
+}
+.heig-vd-Asset-14:before {
+  content: "\63";
+}
+.heig-vd-Asset-15:before {
+  content: "\76";
+}
+.heig-vd-Asset-16:before {
+  content: "\68";
+}
+.heig-vd-Asset-17:before {
+  content: "\48";
+}
+.heig-vd-Asset-18:before {
+  content: "\49";
+}
+.heig-vd-Asset-19:before {
+  content: "\42";
+}
+.heig-vd-Asset-20:before {
+  content: "\43";
+}
+.heig-vd-Asset-21:before {
+  content: "\44";
+}
+.heig-vd-Asset-22:before {
+  content: "\45";
+}
+.heig-vd-Asset-23:before {
+  content: "\46";
+}
+.heig-vd-Asset-24:before {
+  content: "\47";
+}
+.heig-vd-Asset-25:before {
+  content: "\4a";
+}
+.heig-vd-Asset-26:before {
+  content: "\4b";
+}
+.heig-vd-ReDS .path1:before {
+  content: "\52";
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS .path2:before {
+  content: "\53";
+  margin-left: -2.9736328125em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS .path3:before {
+  content: "\54";
+  margin-left: -2.9736328125em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS .path4:before {
+  content: "\55";
+  margin-left: -2.9736328125em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS .path5:before {
+  content: "\56";
+  margin-left: -2.9736328125em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS .path6:before {
+  content: "\57";
+  margin-left: -2.9736328125em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS .path7:before {
+  content: "\58";
+  margin-left: -2.9736328125em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS .path8:before {
+  content: "\5a";
+  margin-left: -2.9736328125em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS .path9:before {
+  content: "\5b";
+  margin-left: -2.9736328125em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS .path10:before {
+  content: "\5c";
+  margin-left: -2.9736328125em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS .path11:before {
+  content: "\5d";
+  margin-left: -2.9736328125em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS .path12:before {
+  content: "\5e";
+  margin-left: -2.9736328125em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS .path13:before {
+  content: "\5f";
+  margin-left: -2.9736328125em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS .path14:before {
+  content: "\60";
+  margin-left: -2.9736328125em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS .path15:before {
+  content: "\62";
+  margin-left: -2.9736328125em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS .path16:before {
+  content: "\69";
+  margin-left: -2.9736328125em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS .path17:before {
+  content: "\6a";
+  margin-left: -2.9736328125em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS .path18:before {
+  content: "\6b";
+  margin-left: -2.9736328125em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS .path19:before {
+  content: "\6e";
+  margin-left: -2.9736328125em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS .path20:before {
+  content: "\71";
+  margin-left: -2.9736328125em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS .path21:before {
+  content: "\72";
+  margin-left: -2.9736328125em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path1:before {
+  content: "\36";
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS-Text .path2:before {
+  content: "\37";
+  margin-left: -1.9990234375em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS-Text .path3:before {
+  content: "\38";
+  margin-left: -1.9990234375em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS-Text .path4:before {
+  content: "\39";
+  margin-left: -1.9990234375em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS-Text .path5:before {
+  content: "\3a";
+  margin-left: -1.9990234375em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS-Text .path6:before {
+  content: "\3b";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path7:before {
+  content: "\3c";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path8:before {
+  content: "\3d";
+  margin-left: -1.9990234375em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS-Text .path9:before {
+  content: "\3e";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path10:before {
+  content: "\3f";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path11:before {
+  content: "\40";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path12:before {
+  content: "\41";
+  margin-left: -1.9990234375em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS-Text .path13:before {
+  content: "\4c";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path14:before {
+  content: "\4d";
+  margin-left: -1.9990234375em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS-Text .path15:before {
+  content: "\64";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path16:before {
+  content: "\75";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path17:before {
+  content: "\7b";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path18:before {
+  content: "\7c";
+  margin-left: -1.9990234375em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS-Text .path19:before {
+  content: "\7d";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path20:before {
+  content: "\7e";
+  margin-left: -1.9990234375em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS-Text .path21:before {
+  content: "\7f";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path22:before {
+  content: "\80";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path23:before {
+  content: "\81";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path24:before {
+  content: "\82";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path25:before {
+  content: "\83";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path26:before {
+  content: "\84";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path27:before {
+  content: "\85";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path28:before {
+  content: "\86";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path29:before {
+  content: "\87";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path30:before {
+  content: "\88";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path31:before {
+  content: "\89";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path32:before {
+  content: "\8a";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path33:before {
+  content: "\8b";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path34:before {
+  content: "\8c";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path35:before {
+  content: "\8d";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path36:before {
+  content: "\8e";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path37:before {
+  content: "\8f";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path38:before {
+  content: "\90";
+  margin-left: -1.9990234375em;
+  color: rgb(255, 0, 1);
+}
+.heig-vd-ReDS-Text .path39:before {
+  content: "\91";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path40:before {
+  content: "\92";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path41:before {
+  content: "\93";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path42:before {
+  content: "\94";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path43:before {
+  content: "\95";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path44:before {
+  content: "\96";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path45:before {
+  content: "\97";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path46:before {
+  content: "\98";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path47:before {
+  content: "\99";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path48:before {
+  content: "\9a";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path49:before {
+  content: "\9b";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path50:before {
+  content: "\9c";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path51:before {
+  content: "\9d";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path52:before {
+  content: "\9e";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path53:before {
+  content: "\9f";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path54:before {
+  content: "\a0";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path55:before {
+  content: "\a1";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path56:before {
+  content: "\a2";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path57:before {
+  content: "\a3";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path58:before {
+  content: "\a4";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path59:before {
+  content: "\a5";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path60:before {
+  content: "\a6";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-ReDS-Text .path61:before {
+  content: "\a8";
+  margin-left: -1.9990234375em;
+  color: rgb(0, 0, 0);
+}
+.heig-vd-HES-SO-Text:before {
+  content: "\78";
+}
+.heig-vd-HES-SO:before {
+  content: "\77";
+}
+.heig-vd-Vaud:before {
+  content: "\7a";
+}
+.heig-vd-IAI:before {
+  content: "\4f";
+}
+.heig-vd-ce-4:before {
+  content: "\4e";
+}
+.heig-vd-FFC-Logo:before {
+  content: "\50";
+}
+.heig-vd-CRH:before {
+  content: "\51";
+}
