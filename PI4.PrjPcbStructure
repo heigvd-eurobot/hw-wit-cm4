@@ -1,0 +1,8 @@
+Record=TopLevelDocument|FileName=audio.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=audio.SchDoc|FileName=cm4-power.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=audio.SchDoc|FileName=csi-camera-ethernet.SchDoc|SheetNumber=0
+Record=NoMainPathDocument|SourceDocument=audio.SchDoc|FileName=gpio.SchDoc|SheetNumber=0
+Record=NoMainPathDocument|SourceDocument=audio.SchDoc|FileName=i2c-can-lin.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=audio.SchDoc|FileName=pcie-hdmi-sdcard.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=audio.SchDoc|FileName=power.SchDoc|SheetNumber=0
+Record=NoMainPathDocument|SourceDocument=audio.SchDoc|FileName=usb.SchDoc|SheetNumber= 
