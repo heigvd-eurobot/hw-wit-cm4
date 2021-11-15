@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'HEIG-VD';
-  src:  url('fonts/HEIG-VD.eot?d47o52');
-  src:  url('fonts/HEIG-VD.eot?d47o52#iefix') format('embedded-opentype'),
-    url('fonts/HEIG-VD.ttf?d47o52') format('truetype'),
-    url('fonts/HEIG-VD.woff?d47o52') format('woff'),
-    url('fonts/HEIG-VD.svg?d47o52#HEIG-VD') format('svg');
+  src:  url('fonts/HEIG-VD.eot?go95ab');
+  src:  url('fonts/HEIG-VD.eot?go95ab#iefix') format('embedded-opentype'),
+    url('fonts/HEIG-VD.ttf?go95ab') format('truetype'),
+    url('fonts/HEIG-VD.woff?go95ab') format('woff'),
+    url('fonts/HEIG-VD.svg?go95ab#HEIG-VD') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.heig-vd-Asset-110:before {
+  content: "\2a";
+}
+.heig-vd-Speaker_Icon:before {
+  content: "\2b";
+}
+.heig-vd-raspberry_pi_logo_icon_144943:before {
+  content: "\25";
+}
+.heig-vd-USB_icon:before {
+  content: "\e7";
+}
+.heig-vd-Asset-1:before {
+  content: "\e0";
+}
 .heig-vd-Asset-210 .path1:before {
   content: "\34";
   color: rgb(238, 52, 37);
