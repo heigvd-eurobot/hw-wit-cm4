@@ -1,5 +1,32 @@
 # Setup PI4 board
 
+## Ubuntu
+
+/boot/firmware/usercfg.txt
+```sh
+dtparam=i2c_arm=on
+dtparam=i2s=on
+dtparam=spi=on
+
+
+dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25
+dtoverlay=spi0-hw-cs
+
+dtoverlay=spi-bcm2835
+
+# Disable Bluetooth for energy save
+dtoverlay=disable-bt
+
+dtoverlay=i2c0,pins_44_45
+dtoverlay=i2c1,pins_2_3
+dtoverlay=i2c6,pins_22_23
+
+dtoverlay=i2c-rtc,ds1307,addr=0x68
+dtoverlay=dwc2,dr_mode=host
+
+```
+
+
 ## Informations
 
 - Quad-core ARM Cortex-A72 (ARM v8) 1.5 GHz
