@@ -4,26 +4,52 @@
 
 /boot/firmware/usercfg.txt
 ```sh
+# I2C
 dtparam=i2c_arm=on
 dtparam=i2s=on
 dtparam=spi=on
 
+# V3D Driver
+dtoverlay=vc4-fkms-v3d
+max_framebuffers=2
 
-dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25
-dtoverlay=spi0-hw-cs
+# Serial Console
+enable_uart=1
 
-dtoverlay=spi-bcm2835
+# Enable USB 
+dtoverlay=dwc2,dr_mode=host
+dtoverlay=uart3
 
-# Disable Bluetooth for energy save
-dtoverlay=disable-bt
+# Reduce boot time
+disable_splash=1
+boot_delay=0
+initial_turbo=30
 
+# PWM for RPLidar
+dtoverlay=pwm,pin=12,func=4
+
+# Configure I2C ports
+dtoverlay=i2c1,pins_2_3=1
 dtoverlay=i2c0,pins_44_45
-dtoverlay=i2c1,pins_2_3
 dtoverlay=i2c6,pins_22_23
 
-dtoverlay=i2c-rtc,ds1307,addr=0x68
-dtoverlay=dwc2,dr_mode=host
+# Enable audio
+dtparam=audio=on
+dtoverlay=i2s-mmap
+dtoverlay=googlevoicehat-soundcard
+dtparam=i2s=on
 
+# CAN Bus
+dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25
+
+# RTC
+dtoverlay=i2c-rtc,ds1307
+                
+# Semtech GPIO Expander     
+dtoverlay=sx150x,sx1508-1-20      
+
+# More details with `sudo vcdbg log msg`               
+dtdebug=1
 ```
 
 ### Setup CAN0
