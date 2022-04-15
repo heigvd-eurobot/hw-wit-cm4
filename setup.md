@@ -181,6 +181,13 @@ sudo echo "out" > /sys/class/gpio/gpio27/direction
 sudo echo "1" > /sys/class/gpio/gpio27/value              
 ```
 
+Si il y a un permission denied et que ça ne fonctionne pas avec sudo à cause du ">" il faut utiliser tee:  
+```
+echo "27" | sudo tee /sys/class/gpio/export                        
+echo "out" | sudo tee /sys/class/gpio/gpio27/direction        
+echo "1" | sudo tee /sys/class/gpio/gpio27/value   
+```
+
 Je peux lire sur `i2cdetect -y 3` les périphériques suivants:
 
 - I2C3 0x29 VL6180X - Time Of Flight distance sensor [OK]
