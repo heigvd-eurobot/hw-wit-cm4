@@ -642,7 +642,14 @@ pi@raspberrypi:~ $ sudo dd if=/dev/zero of=/tmp/test1.img bs=100M count=1 oflag=
 ## Display
 
 vcgencmd display_power 0 # Disable display
+
 vcgencmd display_power 1 # Enable display
+
+### CM4
+
+Pour faire fonctionner l'écran sur la CM4, il faut mettre le fichier `dt-blob-disp0-double_cam.dts` (présent sur ce repo) sur le raspberry pi. Il faut ensuite le compiler et le placer dans `/boot/firmware/` avec `dt-blob.bin` comme nom. La commande suivante permet de le faire `sudo dtc -I dts -O dtb -o /boot/firmaware/dt-blob.bin dt-blob-disp0-double_cam.dts`
+
+
 
 ## Camera/DSI Display
 
